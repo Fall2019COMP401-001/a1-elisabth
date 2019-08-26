@@ -25,6 +25,7 @@ public class A1Novice {
 			lastName = scan.next();
 			fullName = firstName + ". " + lastName;
 			itemsBought = scan.nextInt();
+			totalCost = 0;
 			for(int j=0; j<itemsBought; j++) {
 				numPurchased = scan.nextDouble();
 				nameOfItem = scan.next();
