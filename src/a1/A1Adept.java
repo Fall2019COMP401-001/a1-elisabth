@@ -87,8 +87,8 @@ public class A1Adept {
 			}
 		}
 		
-		System.out.println("Biggest: " + biggestSpenderName + "(" + biggestSpender + ")");
-		System.out.println("Smallest: " + smallestSpenderName + "(" + smallestSpender + ")");
+		System.out.println("Biggest: " + biggestSpenderName + " (" + String.format("%.2f", biggestSpender) + ")");
+		System.out.println("Smallest: " + smallestSpenderName + " (" + String.format("%.2f", smallestSpender) + ")");
 		System.out.println("Average: " + String.format("%.2f", totalCost/numOfCustomers));
 
 	}
